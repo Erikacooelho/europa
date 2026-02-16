@@ -1,0 +1,40 @@
+body{margin:0; padding: 0;}
+
+.inicio{display: flex; align-items: center;}
+
+img{display: block; align-content: center; }
+
+h1{color:peru; background-color: bisque; width: 600px;
+margin: auto; margin-bottom: 30px; margin-top: 20px;
+font-size: 2.5rem; text-align: center;}
+
+ h1:hover{background-color: crimson; color: aliceblue;
+font-size: 3rem; border-left: 4px solid yellow;}
+
+h3::after{content: ""; width: 300px; height: 3px ; display: block; background-color: red;}
+h3:hover{color:indigo;}
+
+h2, nav{color:brown; text-align:center; font-size: 1.8rem;}
+
+a{ background-color: darkorange; font-size:2rem; text-decoration: none;}
+
+a:hover{background-image: linear-gradient(red,yellow);}
+
+.turistic{color:peru; background-color: bisque;
+ width: 1200px; margin: auto; margin-bottom: 30px; 
+ margin-top: 20px; font-size: 2.5rem; text-align: center;}
+ 
+.imagens, p{display: block; font-size: 2rem;text-align: center; display: grid;
+  place-items: center; margin: 5px 10px; }
+
+  @media ( max-width:700px ){
+    .imagens{ display: block; font-size: 1rem;text-align: center; display: grid;
+  place-items: center; }}
+
+   @media ( max-width:700px ){
+    p{ display: block; font-size: 1rem;text-align: center; display: grid;
+  place-items: center;}}
+@media ( max-width:700px ){
+    h1,h2,h3{ display: block; font-size: 1rem;text-align: center; display: grid;
+  place-items: center; text-align: center;}}
+
